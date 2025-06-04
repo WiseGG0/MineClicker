@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #dfffe0;
+  padding: 10px;
+}
+
+#game img {
+  width: 100px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#store {
+  margin-top: 20px;
+}
+
+#achievements {
+  margin-top: 10px;
+  color: #333;
+}
+
+.particle {
+  position: absolute;
+  font-size: 1.2em;
+  color: #fff;
+  animation: floatUp 0.8s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes floatUp {
+  0% { opacity: 1; transform: translateY(0px); }
+  100% { opacity: 0; transform: translateY(-50px); }
+}
